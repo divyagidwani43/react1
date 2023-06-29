@@ -1,0 +1,18 @@
+we use props to pass data down from component tree to child component 
+like menu where we accessed pizza component ie menu being parent we add the data in menu component
+then that data is accessed in pizza component using props that gives us that data
+in object from
+
+using props we can onlt move data from parent to child ie from top to bottom not the other way
+
+react renders a component based on current data and ui is kept in sync with that data
+component has data logic and appearance
+data has props and state
+state is internal data that can be updated using component logic and props are data coming from parent component
+
+props are read only i.e they cant be updated to update them we need state 
+
+when we update using state the intiql value is also updated 
+
+one-way-data-flow
+data can only be passed from parent to children
